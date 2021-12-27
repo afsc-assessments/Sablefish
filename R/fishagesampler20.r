@@ -13,8 +13,8 @@ library(RODBC)
 ### switch to akfin in 2017
 # change this to different year and different species if desired (currently 2011 and 203)
 database_akfin="akfin" # use when at TSMRI
-username_akfin="dhanselman"
-password_akfin="723Miller!"
+username_akfin=""
+password_akfin=""
 conn=odbcConnect(database_akfin,uid=username_akfin,pwd=password_akfin,believeNRows=FALSE)
 
 
